@@ -1,0 +1,20 @@
+{
+    "name": "qi/time_coffee",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+      "psr-4": {
+        "QI\\TimeCoffee\\": "src/"
+      },
+      "files": [
+        "Config.php"
+      ]
+    },
+    "authors": [
+      {
+        "name": "ProjetoWebII",
+        "email": "ries.pw86@gmail.com"
+      }
+    ],
+    "require": {}
+  }
