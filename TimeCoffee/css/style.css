@@ -1,0 +1,358 @@
+*{
+	font-family: 'Roboto', sans-serif, Helvetica, Arial, sans-serif, Monospace;
+	box-sizing: border-box;
+	outline: none; border:none;
+	text-decoration: none;
+	transition: .2s linear;
+	}
+
+html{
+	height: 100%;
+	overflow-x: hidden;
+	scroll-padding-top: 9rem;
+	scroll-behavior: smooth;
+	}
+	html::-webkit-scrollbar{
+	width: .8rem;
+	}
+	html::-webkit-scrollbar-track{
+	background: #252525;
+	}
+	html::-webkit-scrollbar-thumb{
+	background: #FFF;
+	border-radius: 5rem;
+}
+
+body {
+	background: url(../src/View/img/nordwood-nobg.png),
+	linear-gradient(180deg, #F0C072, #6F4706);
+	background-attachment: fixed;
+	background-position: inherit;
+	background-size: contain;
+	background-repeat: round;
+	
+}
+
+/* Home */
+.home{
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	background:url(src/View/img/nordwood.jpg) no-repeat;
+	background-size: cover;
+	background-position: center;
+	}
+	.home .content{
+	max-width: 60rem;
+	}
+	.home .content h3{
+	font-size: 6rem;
+	text-transform: uppercase;
+	color:#fff;
+	}
+	.home .content p{
+	font-size: 2rem;
+	font-weight: lighter;
+	line-height: 1.8;
+	padding:1rem 0;
+	color:#FFF;
+	}
+	.home .content a{
+		font-size: 1.0rem;
+		color:#FFF;
+		padding:1rem 0;
+		line-height: 1.8;
+		}
+	.home .content a:hover{
+		font-size: 1.1rem;
+		color:#FFF;
+		padding:1rem 0;
+		line-height: 1.8;
+		margin-bottom: 0.01rem;
+		}
+
+	.about .row{
+		display: flex;
+		align-items: center;
+		background:var(--black);
+		flex-wrap: wrap;
+		}
+		.about .row .image{
+		flex:1 1 48rem;
+		}
+		.about .row .image img{
+		width: 100%;
+		opacity: 0.8;
+		border-radius: 20px;
+		-webkit-border-radius: 20px;
+		-moz-border-radius: 20px;
+		-ms-border-radius: 20px;
+		-o-border-radius: 20px;
+		}
+		.about .row .content{
+		flex:1 1 45rem;
+		padding:2rem;
+		}
+		.about .row .content h3{
+		font-size: 1.6rem;
+		color:#fff;
+		}
+		.about .row .content p{
+		font-size: 1.2rem;
+		color:#ccc;
+		padding:1rem 0;
+		line-height: 1.8;
+		}
+		.heading{
+			text-align: center;
+			color:#fff;
+			text-transform: uppercase;
+			padding-bottom: 3.5rem;
+			font-size: 4rem;
+			}
+			.heading span{
+			color:var(--main-color);
+			text-transform: uppercase;
+			}
+		.about .row .content a{
+			font-size: 1.0rem;
+			color:#FFF;
+			padding:1rem 0;
+			line-height: 1.8;
+			text-decoration: underline;
+			}
+		.about .row .content a:hover{
+			font-size: 1.1rem;
+			color:#FFF;
+			padding:1rem 0;
+			line-height: 1.8;
+			text-decoration: none;
+			margin-bottom: 0.01rem;
+			}	
+
+/********/
+
+/* carrossel */
+
+#carousel-coffee {
+	margin-bottom: 220px;
+}
+
+.capa {
+	text-align: center;
+}
+
+.carousel-item {
+	border-radius: 50px;
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	-ms-border-radius: 50px;
+	-o-border-radius: 50px;
+}
+
+.carousel-item .card {
+	margin-left: 30%;
+	max-width: 40%;
+	max-height: 30%;
+	background: rgba(255, 255, 255, 0.0);
+	opacity: 0.8;
+}
+
+.carousel-item h2{
+	font-family: 'Roboto';
+	color: #FFF;
+}
+
+.btn-custom {
+	color: white;
+	border-radius: 500px;
+	-webkit-border-radius: 500px;
+	-moz-border-radius: 500px;
+	text-transform: uppercase;
+	transition: background 0.4s, color 0.4;
+	padding: 10px 20px;
+	-webkit-transition: background 0.4s, color 0.4;
+	-moz-transition: background 0.4s, color 0.4;
+	-ms-transition: background 0.4s, color 0.4;
+	-o-transition: background 0.4s, color 0.4;
+}
+
+.btn-roxo {
+	background: #252525;
+}
+
+.btn-roxo:hover {
+	background: #252525;
+	color: white;
+}
+
+.btn-branco {
+	border: 2px solid white;
+}
+
+.btn-branco:hover {
+	background-color: white;
+	color: black;
+}
+
+.carousel-control-prev, .carousel-control-next { 
+	width: 5%;
+}
+
+/********/
+
+.bgHF {
+	background: #252525;
+}
+
+footer {
+	height: 180px;
+}
+
+footer p {
+	font-size: 0.9em;
+	color: white;
+}
+
+footer a:hover {
+	color: #D59920;
+	font-size: 1.1rem;
+	margin-left: 0.04rem;
+}
+
+.coffeeCor {
+	color: #D59920;
+}
+
+.hoverCoffee :hover {
+	color: #D59920;
+}
+
+/* Navbar */
+.navbar {
+	min-height: fit-content;
+	max-height: 160px;
+}
+
+.imgLogo{
+	background: rgba(255, 255, 255, 0.9);
+	opacity: 0.9;
+}
+
+.imgLogo:hover{
+	rotate: -15deg;
+	width: 195px;
+	padding: 10px;
+	margin-bottom: 0.02rem;
+	transition: 1.5s;
+	-webkit-transition: 1.5s;
+	-moz-transition: 1.5s;
+	-ms-transition: 1.5s;
+	-o-transition: 1.5s;
+}
+
+.navbar-nav .nav-item .nav-link {
+	color: rgb(218, 218, 218);
+	font-family: 'Roboto';
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+	color: #D59920;
+	font-size: 1.3rem;
+	margin-left: 0.01rem;
+	text-decoration: underline 0.1px;
+}
+
+nav.navbar-transparente {
+	background: rgba(0, 0, 0, 0.7);
+	padding: 15px 0px;
+}
+
+.cinzaClaro {
+    color: #7e7e7e;
+}
+
+.menuHeader {
+	font-size: 1.2em;
+    font-weight: bold;
+    font-family: 'Roboto';
+    letter-spacing: 1px;
+}
+
+.BtnPrimary {
+	font-size: 1.0em;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+/********/
+
+/* Login / Registro */
+h3 {
+	font-size: 1.8em;
+    font-weight: bold;
+    font-family: Monospace;
+}
+
+.cardBG {
+	background: url(),url(),
+	linear-gradient(180deg, #252525, #747474);
+}
+
+#cardForm {
+	background: url(),url(),	linear-gradient(180deg, #252525, #747474);
+	opacity: 0.9;
+	border-radius: 200px;
+	-webkit-border-radius: 200px;
+	-moz-border-radius: 200px;
+	-ms-border-radius: 200px;
+	-o-border-radius: 200px;
+}
+
+/****/
+
+/* List */
+#mainMarg {
+	margin-top: 200px;
+}
+
+#myInput {
+	width: 50%; 
+	border: 1px solid #747474;
+	font-size: 16px; 
+	padding: 12px 20px 12px 40px; 
+	margin-bottom: 12px; 
+	margin-left: 395px;
+  }
+
+  .btnAdd {
+	margin-left: 785px;
+  }
+
+  .btnAdd1 {
+	margin-right: 20px;
+  }
+  
+  #myTable {
+    border-collapse: collapse;
+    background-color: #252525;
+    opacity: 0.8;
+    color: #FFF;
+    font-size: 18px;
+    border-collapse:separate;
+    border-radius:30px;
+    -webkit-border-radius:30px;
+    -moz-border-radius:30px;
+    -ms-border-radius:30px;
+    -o-border-radius:30px;
+}
+
+  #myTable thead, #myTable td {
+	padding: 10px; 
+  }
+  
+  #myTable tbody tr:hover {
+	background-color: rgb(0, 0, 0);
+	color: #D59920;
+ } 
+/****/
